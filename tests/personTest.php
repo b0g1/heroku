@@ -13,6 +13,6 @@ class personTest extends PHPUnit_Framework_TestCase
   public function testGetFname()
   {
     $person = new person('pera');
-    $this->assertEquals('pera1', $person->getFname());
+    $this->assertEquals('pera', $person->getFname());
   }
 }
